@@ -1,0 +1,43 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    color: rgb(124, 121, 121);
+}
+.sezim{
+    background-color: black;
+}
+.sezim1{
+    display: flex;
+    justify-content: center;
+}
+.soz{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.my{
+    background-color: beige;
+    padding:30px;
+}
+.projects{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.project{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+   

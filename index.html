@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pf.css">
+    <title></title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+          <a href="#" class="contact-link">+ Contact Us</a>
+          <h1 class="logo">CG FASHION</h1>
+          <div class="header-icons">
+            <a href="./sign in.html" class="signin" style="font-size: smaller;">Sign in</a>
+          </div>
+        </div>
+      </header>
+    <div class="video-container">
+        <video id="video1" autoplay muted loop>
+            <source src="Introducing Jung Kook .mp4" type="video/mp4">
+        </video>
+        <div class="overlay-content"> <h2>MEN FASHION</h2> <a href="./man_fashion.html" target="_blank">Explore the Collection</a> </div>
+        </div>
+        <div class="video-container">
+        <video id="video2" autoplay muted loop>
+            <source src="JISOO and her 'Lady 95.22'.mp4" type="video/mp4">
+        </video>
+        <div class="overlay-content"> <h2>WOMEN FASHION</h2> <a href="./women_fashion.html" target="_blank">Explore the Collection</a> </div>
+        </div>
+       <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h3>CG FASHION SERVICES</h3>
+                    <a href="#">Product Overview</a>
+                    <a href="#">Book an Appointment</a>
+                    <a href="#">Collect In Store</a>
+                </div>
+                <div class="footer-region">
+                    <h3>COUNTRY/REGION</h3>
+                    <p>TARAZ</p>
+                </div>
+                <div class="footer-logos">
+                    <img src="./jihc-logo-png-v1.png" alt="jihc" class="logo-icon">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 - 2025 COLLEGE FASHION S.p.A. - All rights reserved. SIAE LICENCE # 2294/I/1936 and 5647/I/1936</p>
+                <h1 class="footer-logo">CG FASHION</h1>
+            </div>
+        </footer>
+    <script>
+        
+        video1.onmouseover = function() {
+            video2.pause();
+        };
+        video1.onmouseleave = function() {
+            video2.play();
+        };
+
+        video2.onmouseover = function() {
+            video1.pause();
+        };
+        video2.onmouseleave = function() {
+            video1.play();
+        };
+    </script>
+</body>
+</html>

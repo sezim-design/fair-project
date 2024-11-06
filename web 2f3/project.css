@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap'); 
+.outfit{ 
+font-family: "Outfit", sans-serif; 
+font-optical-sizing: auto; 
+font-weight: weight; 
+font-style: normal; 
+} 
+.young-serif-regular { 
+font-family:"Young Serif", serif; 
+font-weight: 400; 
+font-style: normal; 
+} 
+body{ 
+font-family:"young-serif"serif; 
+} 
+
+h3{ 
+    font-family: outfit; 
+     
+} 
+img{ 
+    border-radius: 20px; 
+    width: 100%; 
+    object-fit: cover; 
+} 
+.Preparation { 
+    background-color: rgb(255, 238, 255); 
+    border-radius: 20px; 
+    width: 100%; 
+    object-fit: cover; 
+} 
+h3{ 
+    color: rgb(180, 9, 168); 
+    margin: 33px; 
+} 
+h2{ 
+    color: brown; 
+} 
+span{ 
+    font-weight: bold; 
+} 
+.thin-line{ 
+    border-top: 1px solid black; 
+     
+margin-top: 20px; 
+} 
+
+table{ 
+border-collapse: collapse; 
+width: 100%; 
+} 
+th, td{ 
+padding: 8px; 
+text-align: left; 
+border-bottom: 1px solid rgb(199, 183, 183); 
+} 
+th{ 
+color: brown; 
+} 
+ol li::marker{ 
+color: brown; 
+} 
+ul li::marker{ 
+color: brown; 
+} 
+.simple h1{ 
+font-family:"Young Serif", serif; 
+} 
+h2{ 
+font-family:"Young Serif", serif; 
+margin: 30px; 
+} 
+li{ 
+padding: 3px; 
+} 
+ol li::marker{ 
+font-weight: bold; 
+} 
+p{ 
+margin: 33px; 
+} 
+table{ 
+margin: 33px; 
+} 
+h1{ 
+margin: 33px; 
+} 
